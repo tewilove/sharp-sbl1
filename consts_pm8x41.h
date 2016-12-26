@@ -1,0 +1,19 @@
+
+#ifndef _CONSTS_PM8X41_H_
+#define _CONSTS_PM8X41_H_
+
+#define PON_REVISION2 0x801
+#define PMIC_WD_RESET_S2_CTL2 0x857
+#define PON_PS_HOLD_RESET_CTL 0x85A
+#define PON_PS_HOLD_RESET_CTL2 0x85B
+
+#define S2_RESET_EN_BIT 7
+
+#define PON_PSHOLD_WARM_RESET   0x1
+#define PON_PSHOLD_SHUTDOWN     0x4
+#define PON_PSHOLD_HARD_RESET   0x7
+
+#define PON_POWER_OFF_MASK 0xF
+
+#endif
+
