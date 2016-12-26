@@ -36,11 +36,7 @@ all: $(PROJECTS)
 start_objs := crt0.o 
 common_objs := fldr.o \
                insn.o \
-               mmc.o \
-               graphic.o \
-               font.o \
-               font_40x64.o \
-               screen.o
+               mmc.o
 libc_objs := $(libgcc) \
              libgcc-compat.o \
              memchr.o \
